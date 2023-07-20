@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | E-commerce product page</title>
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="shadow shadow-active"> </div>
+  <div class="shadow-bg shadow-active"></div>
+  <div class="ham-menu"> 
+    <div class="ham-menu-item1"><img src="./images/icon-close.svg" alt=""></div>
+    <div class="ham-menu-item">Collections</div>
+    <div class="ham-menu-item">Men</div>
+    <div class="ham-menu-item">Women</div>
+    <div class="ham-menu-item">About</div>
+    <div class="ham-menu-item">Contact</div>
+   </div>  
+  <div class="navbar">
+    <div class="navbar-el">  
+      <ul class="nav-el-left">
+        <li class="hamburger"><img src="./images/icon-menu.svg" alt="" id="ham">
+        </li>
+        <li><img class="logo" src="./logo.svg" alt="logo"></li>
+        <li class="hamburger2">Collections</li>
+        <li class="hamburger2">Men</li>
+        <li class="hamburger2">Women</li>
+        <li class="hamburger2">About</li>
+        <li class="hamburger2">Contact</li>
+      </ul>
+    </div>
+    
+    <div class="navbar-el">
+      <ul class="nav-el-right">
+        <li class="right-btn1"><img class="CART" src="./images/icon-cart.svg" alt="">
+        </li>
+        <li class="right-btn2"><img class="user" style="height: 35px; width: 35px;" src="./images/image-avatar.png" alt=""></li>
+      </ul>
+      <div class="cart-noti cart-noti-off">
+        0
+      </div>
+    <div class="cart-box show">
+      <div class="cart-menu"> 
+        <div class="cart-sub">Cart</div>
+        <div class="emptyCart"> Your cart is empty.</div>
+        <div class="cart-sub-2 show-hide"> 
+            <img style="height: 55px; width: 55px; border-radius: 10px;" src="./images/image-product-1-thumbnail.jpg" alt="">
+            <span class="cart-menu-text"  > Fall Limited Edition Sneakers <br>
+             $125.00 X <span  class="cart-menu-text cartCount" >3</span > <span class="cart-menu-total">$375.00 </span>
+            </span> 
+             <span>
+             <img class="cart-menu-del" src="./images/icon-delete.svg" alt=""></span>
+           </div>
+           <div class="cart-sub-3 show-hide"> Checkout</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="sub-sec-1">
+      <div class="image-parent"> 
+            <div class="MAIN-IMAGE">
+             <img class="image-product-1-thumbnail" alt="">
+               <div>
+                 <div class="lightbox-close shadow-active"> <img src="./images/icon-close - Copy.svg" alt=""></div>
+                 <!-- lightbox main image  -->
+                 <img class="image1 shadow-active" src="./images/image-product-1.jpg" alt="">  
+                <!-- lightbox thumbnail images -->
+                <img id="LightChild1" class="lightbox-child first1 shadow-active" src="./images/image-product-1-thumbnail.jpg" alt="">
+                <img id="LightChild2" class="lightbox-child second2 shadow-active" src="./images/image-product-2-thumbnail.jpg" alt="">
+                <img id="LightChild3" class="lightbox-child third3 shadow-active" src="./images/image-product-3-thumbnail.jpg" alt="">
+                <img id="LightChild4" class="lightbox-child fourth4 shadow-active" src="./images/image-product-4-thumbnail.jpg" alt="">
+                </div>
+              </div>            
+             <img class="previous-icon" src="./images/icon-previous.svg" alt="">
+             <img class="next-icon" src="./images/icon-next.svg" alt="">
+        <div class="thumbnail-parent">
+          <div class="op1 opacity"><img class="thumbnail-child first active-state " src="./images/image-product-1-thumbnail.jpg" alt=""></div>
+          <div class="op2"><img class="thumbnail-child second" src="./images/image-product-2-thumbnail.jpg" alt=""></div>
+          <div class="op3"><img class="thumbnail-child third" src="./images/image-product-3-thumbnail.jpg" alt=""></div>
+          <div class="op4"><img class="thumbnail-child fourth" src="./images/image-product-4-thumbnail.jpg" alt=""></div>
+        </div>
+      </div>
+    </div>
+    <div class="sub-sec-2">
+      <div class="text-1"> SNEAKER COMPANY</div>
+      <div class="text-2"> Fall Limited Edition Sneakers</div>
+      <div class="text-3"> These low-profile sneakers are your perfect casual wear companion. Featuring a 
+        durable rubber outer sole, they'll withstand everything the weather can offer.</div>
+        <div class="text-4"> <span class="price125"> $125.00</span>  <span class="price50">50%</span>  <span class="price250">$250.00</span>  </div>
+        <div class="response-text">
+         <div class="text-5"> 
+           <span class="quantity-minus"> <img src="./images/icon-minus.svg" alt="minus"></span>
+           <span class="quantity-count"> 0 </span>
+           <span class="quantity-plus"><img src="./images/icon-plus.svg" alt="plus"></span>
+          </img></div>
+          <div class="text-6">
+            <img style="height: 15px; width: 15px;" src="./images//icon-cart - Copy.svg" alt=""> <span class="text-6sub"> Add to cart </span>
+          </div>
+        </div>
+        </div>
+
+ 
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Collections
+  Men
+  Women
+  About
+  Contact
+
+  Sneaker Company
+
+  Fall Limited Edition Sneakers
+
+  These low-profile sneakers are your perfect casual wear companion. Featuring a 
+  durable rubber outer sole, they’ll withstand everything the weather can offer.
+
+  $125.00
+  50%
+  $250.00
+
+  0
+  Add to cart
+   -->
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="script.js"></script>
+</body>
+</html>
